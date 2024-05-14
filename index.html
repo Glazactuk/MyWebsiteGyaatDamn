@@ -2,10 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная|HTML+CSS</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    
 </head>
 <body>
-    <h1>HELLO WORLD!</h1>
+    <div id="company_name">Вадимчиксон</div>
+
+    <div id="header_container">
+        <a href="projects.html" target="_blank">проекты</a>
+        <a>обо мне</a>
+        <a onclick="Contacts_clicked(this)" class="contact">контакты</a>
+    </div>
+
+    <div id="main_container">
+        <div class="f_word">Моё</div>
+
+        <div class="s_word">Личное</div>
+
+        <div class="t_word">Портфолио</div>
+    </div>
+
+    <div class="horizontal_scroll">
+        <div class="info_about_self_1">
+            <h1 class="title">Я - Вадим Колосов</h1>
+            <p class="text">Юный программист, желающий постигнуть бесконечность</p>
+        </div>
+
+        <div class="info_about_self_2">
+            <h1 class="title">Потихоньку создаю свою историю</h1>
+            <p class="text">И иГрАюСь С кОд0м</p>
+        </div>
+    </div>
+
+        <div id="blocks_of_info">
+            <div class="hidden">Кстати говоря, проектов у меня пока ещё нет</div>
+            <div class="hidden">Вот этот сайт пока что мой единственный</div>
+            <div class="hidden">Хотя он классно получился, правда ведь?</div>
+        </div>
+
+    <div id="footer_container">
+       ААААААААААААААААА КАЗАХИ АТАКУЮТ
+    </div>
+ 
+    
+    <script src="js/idk.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
 </body>
 </html>
